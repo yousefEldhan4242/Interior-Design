@@ -111,13 +111,6 @@
     }
   }
   @media (max-width: 1024px) {
-    .links ul {
-      opacity: 0;
-      z-index: -100;
-      flex-direction: column;
-      position: absolute;
-      right: -50px;
-    }
     .links ul.clicked {
       position: relative;
       opacity: 1;

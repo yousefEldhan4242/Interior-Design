@@ -446,11 +446,6 @@ video {
   display: none;
 }
 
-html {
-  font-family: "Inter", sans-serif;
-  scroll-behavior: smooth;
-}
-
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -599,6 +594,11 @@ html {
   }
 }
 
+html {
+  font-family: "Inter", sans-serif;
+  scroll-behavior: smooth;
+}
+
 .container {
   padding-right: 15px;
   padding-left: 15px;
@@ -724,14 +724,6 @@ html {
 }
 
 @media (max-width: 1024px) {
-  .links ul {
-    opacity: 0;
-    z-index: -100;
-    flex-direction: column;
-    position: absolute;
-    right: -120px;
-  }
-
   .links ul.clicked {
     position: relative;
     opacity: 1;
@@ -837,12 +829,12 @@ html {
   right: -30px;
 }
 
-.right-\[1\%\] {
-  right: 1%;
+.right-\[-50px\] {
+  right: -50px;
 }
 
-.top-0 {
-  top: 0px;
+.right-\[1\%\] {
+  right: 1%;
 }
 
 .top-1\/2 {
@@ -857,16 +849,16 @@ html {
   top: 35%;
 }
 
+.z-\[-100\] {
+  z-index: -100;
+}
+
 .z-\[-1\] {
   z-index: -1;
 }
 
 .z-\[1000\] {
   z-index: 1000;
-}
-
-.z-\[15\] {
-  z-index: 15;
 }
 
 .m-auto {
@@ -1801,14 +1793,6 @@ html {
 
 .group:hover .group-hover\:animate-go-right {
   animation: go-right 0.5s linear infinite;
-}
-
-.group:hover .group-hover\:bg-instagram-gradient {
-  background-image: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
-}
-
-.group:hover .group-hover\:opacity-100 {
-  opacity: 1;
 }
 
 .group:hover .group-hover\:before\:rotate-45::before {
