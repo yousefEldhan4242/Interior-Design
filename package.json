@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "compile": "npx tailwindcss -i ./input.css -o ./output.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  },
+  "dependencies": {
+    "tailwindcss-filters": "^3.0.0"
+  }
+}

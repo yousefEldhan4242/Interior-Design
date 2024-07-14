@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <title>Interior Design</title>
+  </head>
+  <body>
+    <i
+      class="fa-solid fa-angles-down rotate-180 fixed bottom-[10px] right-[-30px] cursor-pointer duration-300 scroll-icon text-[30px] text-[#2196f3] z-[1000]"
+    ></i>
+    <!-- Start Header -->
+    <header class="pt-10">
+      <nav class="container flex justify-between items-center">
+        <div class="logo">
+          <img src="imgs/Logo.png" alt="" />
+        </div>
+        <div
+          class="links-container flex big:block w-[40%] justify-center flex-col relative items-center"
+        >
+          <div class="burger-icon block lg:hidden">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="links w-full overflow-hidden">
+            <ul
+              class="justify-between font-semibold text-[22px] flex items-center w-full"
+            >
+              <li class="text-main-color">
+                <a href="#">Home</a>
+              </li>
+              <li
+                class="text-secondary-color hover:text-main-color duration-300"
+              >
+                <a href="#our-services">Services</a>
+              </li>
+              <li
+                class="text-secondary-color hover:text-main-color duration-300"
+              >
+                <a href="#">Contact</a>
+              </li>
+              <li
+                class="text-secondary-color hover:text-main-color duration-300"
+              >
+                <a href="#">Support</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="sign-up btn text-[16px] sm:text-[20px] sm:px-10 px-4">
+          Sign Up
+        </div>
+      </nav>
+    </header>
+    <!-- End Header -->
+    <!-- Start Interior Design -->
+    <section class="pt-main-padding pb-main-padding counter-section">
+      <div class="container flex flex-col gap-10 text-center big:text-left">
+        <div class="upper-part flex">
+          <div class="text grow">
+            <h1 class="text-responsive font-medium">Interior Design</h1>
+            <p
+              class="text-secondary-color text-[18.5px] font-medium leading-[1.7] mt-5"
+            >
+              Step into a world where the art of Interior Design is meticulously
+            </p>
+
+            <p
+              class="text-secondary-color text-[18.5px] font-medium leading-[1.7]"
+            >
+              crafted to bring together timeless elegance and cutting-edge
+            </p>
+            <p
+              class="text-secondary-color text-[18.5px] font-medium leading-[1.7]"
+            >
+              modern Innovation, Allowing you to transform your living spaces
+            </p>
+
+            <p
+              class="text-secondary-color text-[20px] font-medium leading-[1.7] mb-10"
+            >
+              into the epitome of luxury and sophistication
+            </p>
+          </div>
+          <div class="image w-[30%] hidden big:block">
+            <img class="h-[105%] rounded" src="imgs/Image 1.png" alt="" />
+          </div>
+        </div>
+        <div
+          class="lower-part flex justify-center big:justify-between flex-col gap-10 big:flex-row"
+        >
+          <div
+            class="statistics m-auto big:m-0 flex big:flex-col flex-col-reverse gap-6 big:gap-0 justify-between"
+          >
+            <div
+              class="btn text-[18px] py-[22px] rounded-[3px] font-medium px-[68px] w-fit"
+            >
+              Start Project
+            </div>
+            <div
+              class="numbers flex flex-col big:flex-row gap-3 text-secondary-color font-normal"
+            >
+              <div
+                class="projects flex flex-col items-center mx-auto big:mr-12 mb-10"
+              >
+                <h2 class="text-[55.5px]">
+                  <span class="num" data-goal="400">0</span>+
+                </h2>
+                <p class="text-[20px]">Project Complete</p>
+              </div>
+              <div class="clients flex flex-col items-center mx-auto big:mr-12">
+                <h2 class="text-[55.5px]">
+                  <span class="num" data-goal="600">0</span>+
+                </h2>
+                <p class="text-[20px]">Satisfied Clients</p>
+              </div>
+              <div class="styles flex flex-col items-center mx-auto big:mr-12">
+                <h2 class="text-[55.5px]">
+                  <span class="num" data-goal="100">0</span>+
+                </h2>
+                <p class="text-[20px]">Unique Styles</p>
+              </div>
+            </div>
+          </div>
+          <div class="image big:w-[43%] static big:relative w-full">
+            <div
+              class="image-container relative left-0 big:left-[-68px] big:block w-full"
+            >
+              <img class="rounded w-full" src="imgs/Image 2.png" alt="" />
+              <div
+                class="square hidden big:block w-[160px] h-[141px] border-2 border-solid border-main-color absolute left-[-25px] top-[-25px] z-[-1] rounded"
+              ></div>
+            </div>
+
+            <div
+              class="black-background hidden big:block absolute bg-main-color rounded-[1px] right-0 bottom-0 w-[100px] h-[37%] cursor-pointer"
+            >
+              <div class="arrow-container relative w-full h-full group">
+                <div
+                  class="arrow w-[2px] h-[30%] group-hover:animate-go-down rounded relative top-[35%] left-[50%] translate-x-[-50%] bg-white after:content-[''] after:absolute after:bottom-[-5%] after:w-[2px] after:h-[30%] after:bg-white after:rotate-45 after:translate-x-[180%] after:rounded before:content-[''] before:bg-white before:w-[2px] before:h-[30%] before:rotate-[-45deg] before:translate-x-[-180%] before:bottom-[-5%] before:absolute before:rounded"
+                ></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Interior Design  -->
+
+    <!-- Start Our Services Section -->
+    <section id="our-services" class="container pb-main-padding">
+      <div
+        class="text flex items-center mb-[110px] justify-center sm:justify-normal"
+      >
+        <div
+          class="line w-[90px] h-[3px] bg-main-color mr-[26px] rounded hidden sm:block"
+        ></div>
+        <h2 class="text-[44px] font-semibold">Our Services</h2>
+      </div>
+      <div
+        class="card-container grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-8"
+      >
+        <div class="card flex gap-7">
+          <div class="icon w-[190px]">
+            <img src="imgs/Lighting design icon.png" alt="" />
+          </div>
+          <div class="text">
+            <h4 class="font-semibold text-[24px] mb-6">Lighting Design</h4>
+            <p class="text-secondary-color font-medium text-[16.5px]">
+              Achieve the perfect balance of ambient, task, and accent lighting
+              for a functional atmosphere
+            </p>
+          </div>
+        </div>
+
+        <div class="card flex gap-7">
+          <div class="icon w-[190px] mb-2">
+            <img src="imgs/Interior design icon.png" alt="" />
+          </div>
+          <div class="text">
+            <h4 class="font-semibold text-[24px] mb-6">Interior Design</h4>
+            <p class="text-secondary-color font-medium text-[16.5px]">
+              From concept to completion, we oversee every detail to bring your
+              vision to life efficiently
+            </p>
+          </div>
+        </div>
+
+        <div class="card flex gap-7">
+          <div class="icon w-[190px]">
+            <img src="imgs/Outdoor design icon (1).png" alt="" />
+          </div>
+          <div class="text">
+            <h4 class="font-semibold text-[24px] mb-6">Outdoor Design</h4>
+            <p class="text-secondary-color font-medium text-[16.5px]">
+              Celebrate the changing seasons with our seasonal outdoor decor
+              services
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Our Services Section -->
+
+    <!-- Start Designing Section -->
+    <section class="container flex flex-col gap-[200px] pb-main-padding">
+      <!-- Start First Designing Section -->
+      <section
+        class="flex gap-20 pt-main-padding flex-wrap flex-col-reverse big:flex-row big:flex-nowrap"
+      >
+        <div class="image big:w-[114%]">
+          <img class="rounded w-full" src="imgs/Mask group.png" alt="" />
+        </div>
+        <div class="info grow w-full">
+          <div class="text mb-10">
+            <h2
+              class="text-[46px] font-semibold mb-5 leading-[1.2] text-center sm:text-left"
+            >
+              Designing Your Dream With Brilliance
+            </h2>
+            <p class="text-secondary-color font-medium text-[20px]">
+              Elevate your spaces with bespoke interior designs that reflect
+              your unique style and aspirations, crafted with precision and
+              brilliance for an unforgettable living experience
+            </p>
+          </div>
+          <div class="footer">
+            <div
+              class="add-section flex justify-between items-center mb-5 group cursor-pointer"
+            >
+              <p class="font-semibold text-[20px]">
+                Living Room Interior Design
+              </p>
+              <div
+                class="icon before:duration-300 after:duration-300 group-hover:before:rotate-45 group-hover:after:rotate-[45deg] cursor-pointer w-6 h-6 relative after:content-[''] after:absolute after:w-full after:h-[2px] after:top-[48%] after:left-0 after:bg-main-color before:content-[''] before:absolute before:top-0 before:left-[47%] before:bg-main-color before:w-[2px] before:h-full after:rounded before:rounded"
+              ></div>
+            </div>
+            <hr class="bg-[#DADADA] mb-10" />
+
+            <div
+              class="add-section flex justify-between items-center mb-5 group cursor-pointer"
+            >
+              <p class="font-semibold text-[20px]">
+                Commercial Office Room Interior Design
+              </p>
+              <div
+                class="icon before:duration-300 after:duration-300 group-hover:before:rotate-45 group-hover:after:rotate-[45deg] cursor-pointer w-6 h-6 relative after:content-[''] after:absolute after:w-full after:h-[2px] after:top-[48%] after:left-0 after:bg-main-color before:content-[''] before:absolute before:top-0 before:left-[47%] before:bg-main-color before:w-[2px] before:h-full after:rounded before:rounded"
+              ></div>
+            </div>
+            <hr class="bg-[#DADADA] mb-10 sm:mb-[22px]" />
+
+            <div class="btn w-fit font-semibold text-[18px] px-[67px] py-5">
+              Learn More
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End First Designing Section -->
+
+      <!-- Start Second Designing Section -->
+      <section class="flex gap-20 flex-wrap big:flex-nowrap">
+        <div class="info">
+          <h2
+            class="font-semibold text-[46px] sm:text-[42px] mb-10 text-center sm:text-left"
+          >
+            Designing Your Dream in Three Simple Steps
+          </h2>
+          <div class="body flex flex-col items-center gap-5">
+            <div class="card">
+              <div class="top-part flex justify-start gap-10 items-center">
+                <div class="icon w-[60px]">
+                  <img src="imgs/Rocket.png" alt="" />
+                </div>
+                <h4 class="text-[24px] font-bold">Start Project</h4>
+              </div>
+              <div class="body flex gap-10 mt-[14px]">
+                <div
+                  class="line h-[70px] w-[1px] bg-[#9B9B9B] mt-[23px] ml-[30px] mr-[30px]"
+                ></div>
+                <p class="font-medium text-secondary-color text-[18px]">
+                  Embark on your design adventure by initiating your project.
+                  Share your vision and set the stage for a bespoke design
+                  experience
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="top-part flex justify-start gap-10 items-center">
+                <div class="icon w-[60px]">
+                  <img src="imgs/Lamp26.png" alt="" />
+                </div>
+                <h4 class="text-[24px] font-bold">Craft</h4>
+              </div>
+              <div class="body flex gap-10 mt-[14px]">
+                <div
+                  class="line h-[70px] w-[1px] bg-[#9B9B9B] mt-[23px] ml-[30px] mr-[30px]"
+                ></div>
+                <p class="font-medium text-secondary-color text-[18px]">
+                  Collaborate closely to achieve design excellence refining your
+                  vision and crafting brilliance into every aspect of your space
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <div class="top-part flex justify-start gap-10 items-center">
+                <div class="icon w-[60px]">
+                  <img src="imgs/Checked 27.png" alt="" />
+                </div>
+                <h4 class="text-[24px] font-bold">Execute</h4>
+              </div>
+              <div class="body flex mt-[14px]">
+                <p
+                  class="font-medium text-secondary-color text-[18px] ml-[100px]"
+                >
+                  Witness your vision becoming a reality as we execute the
+                  design plan with precision. Celebrate the joy of your newly
+                  transformed space
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="image w-full big:w-[132%]">
+          <img class="rounded w-full" src="imgs/Image.png" alt="" />
+        </div>
+      </section>
+      <!-- End Second Designing Section -->
+    </section>
+
+    <!-- End Designing Section -->
+
+    <!-- Start About Us Section -->
+    <section class="container flex py-main-padding pb-[100px] gap-28">
+      <div class="image w-[59.5%] hidden big:block">
+        <img class="rounded" src="imgs/Mask group (1).png" alt="" />
+        <div class="arrows flex gap-8 mt-[36px] shrink">
+          <div
+            class="left-arrow-container relative bg-[#F1F1F1] w-[55px] h-[55px] cursor-pointer group"
+          >
+            <div
+              class="arrow w-[30%] h-[2px] group-hover:animate-go-left bg-main-color absolute top-1/2 left-[35%] rounded before:content-[''] after:content[''] before:absolute after:absolute after:w-[64%] after:h-[2px] after:bg-main-color after:rotate-[-45deg] after:left-[-13%] after:top-[-3.5px] before:w-[64%] before:h-[2px] before:bg-main-color before:rotate-[45deg] before:left-[-12%] before:top-[3.5px] before:rounded after:rounded"
+            ></div>
+          </div>
+          <div
+            class="right-arrow-container relative bg-[#F1F1F1] w-[55px] h-[55px] cursor-pointer group"
+          >
+            <div
+              class="arrow w-[30%] h-[2px] group-hover:animate-go-right bg-main-color absolute top-1/2 left-[35%] rounded before:content-[''] after:content[''] before:absolute after:absolute after:w-[64%] after:h-[2px] after:bg-main-color after:rotate-45 after:right-[-10%] after:top-[-4px] before:w-[64%] before:h-[2px] before:bg-main-color before:rotate-[-45deg] before:right-[-10%] before:top-[3.5px] before:rounded after:rounded"
+            ></div>
+          </div>
+        </div>
+      </div>
+      <div class="info grow">
+        <h2 class="text-[50px] font-semibold mt-[-3px] leading-[55px] mb-10">
+          What Our Customers Say About Us
+        </h2>
+        <div class="card-container flex flex-wrap relative gap-7">
+          <div
+            class="card bg-main-color rounded px-10 w-fit mx-auto lg:mx-0 big:px-[52px] pt-16 pb-20 flex flex-col gap-10 big:absolute big:left-[-420px]"
+          >
+            <div class="icon">
+              <img class="w-[40px]" src="imgs/“ (1).png" alt="" />
+            </div>
+            <p class="text-white text-[18px]">
+              Working with your design team was an <br />
+              absolute pleasure. The attention to detail <br />
+              and creativity exceeded my expectations. <br />
+              Thank you for making my home beautiful!
+            </p>
+            <div class="footer flex gap-4">
+              <div class="footer-image">
+                <img class="w-[60px]" src="imgs/Mask group (2).png" alt="" />
+              </div>
+              <div class="text flex flex-col gap-2 font-medium">
+                <h6 class="text-white text-[18px]">Sophie Carter</h6>
+                <p class="text-[#929292]">New York, USA</p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="card bg-main-color rounded px-10 w-fit mx-auto lg:mx-0 big:px-[69px] pt-16 pb-20 flex flex-col gap-10 big:right-0 big:absolute"
+          >
+            <div class="icon">
+              <img class="w-[40px]" src="imgs/“ (1).png" alt="" />
+            </div>
+            <p class="text-white text-[18px]">
+              Exceptional service! From the initial <br />
+              consultation to the final reveal, your team <br />
+              demonstrated professionalism and a keen <br />
+              eye for design. Highly recommend!
+            </p>
+            <div class="footer flex gap-4">
+              <div class="footer-image">
+                <img class="w-[60px]" src="imgs/Mask group (2).png" alt="" />
+              </div>
+              <div class="text flex flex-col gap-2">
+                <h6 class="text-white text-[18px]">James Bennett</h6>
+                <p class="text-[#929292]">Toronto, Canada</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Us Section -->
+
+    <!-- Start Subscribe Section -->
+    <section class="container text-center py-main-padding relative">
+      <div class="secondary-container sm:w-[60%] mx-auto">
+        <h2
+          class="text-main-color text-[48px] font-semibold leading-[60px] mb-10"
+        >
+          Subscribe to Our Newsletter for Design Insights
+        </h2>
+        <p class="text-secondary-color text-[20px] mb-20 font-medium">
+          Be the first to discover trends, inspirations, and special offers as
+          we bring the world of design directly to your inbox
+        </p>
+        <form
+          action=""
+          class="absolute bottom-[-32px] w-[95%] sm:w-[60%] shadow-[0_-2px_123px_rgba(0,0,0,0.2);] left-[2.5%] sm:left-[20%] rounded"
+        >
+          <div class="cont relative group">
+            <img
+              class="absolute top-1/2 translate-y-[-50%] left-[20px] group-focus-within:top-[0px] bg-white duration-300 rounded"
+              src="imgs/Vector.png"
+              alt=""
+            />
+            <input
+              class="text-[#8C8C8C] w-full p-5 focus:pl-4 duration-300 px-14 rounded outline-none focus:ring-2 focus:ring-blue-500 text-[14px] sm:text-[16px] md:text-[18px]"
+              placeholder="Enter Your Email Address"
+              type="text"
+              name=""
+              id=""
+            />
+            <button
+              type="submit"
+              class="btn absolute right-[1%] top-1/2 translate-y-[-50%] text-[16px] px-5 md:px-10 md:text-[20px]"
+            >
+              Subscribe
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- End Subscribe Section -->
+
+    <!-- Start Footer -->
+    <footer class="py-main-padding bg-main-color text-white">
+      <div class="container flex pt-[50px] gap-36 flex-wrap">
+        <div
+          class="left-side w-[20%] grow items-center flex flex-col big:block"
+        >
+          <div class="logo mb-14 mt-[-25px]">
+            <img
+              class="filter-custom-sepia-saturate-hue"
+              src="imgs/Logo.png"
+              alt=""
+            />
+          </div>
+          <p class="mb-14 text-[#D1D1D1]">
+            VivaDecor your premier destination for luxury and modern interior
+            design
+          </p>
+          <div class="social">
+            <ul class="flex gap-4">
+              <li
+                class="group cursor-pointer rounded bg-[#313131] w-10 h-10 flex justify-center items-center hover:bg-[#1877f2] duration-300"
+              >
+                <img class="" src="imgs/Facebook.png" alt="" />
+              </li>
+              <li
+                class="group cursor-pointer rounded bg-[#313131] w-10 h-10 flex justify-center items-center hover:bg-[#1DA1F2] duration-300"
+              >
+                <img class="" src="imgs/twitter.png" alt="" />
+              </li>
+              <li
+                class="group insta-icon cursor-pointer rounded w-10 h-10 flex justify-center items-center relative bg-[#313131]"
+              >
+                <div class="overlay rounded"></div>
+                <img class="" src="imgs/insta3.png" alt="" />
+              </li>
+              <li
+                class="group cursor-pointer rounded bg-[#313131] w-10 h-10 flex justify-center items-center hover:bg-[#0077B5] duration-300"
+              >
+                <img class="" src="imgs/linkedin.png" alt="" />
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div
+          class="right-side flex justify-center big:justify-between grow mx-10 flex-wrap gap-10 text-center md:text-left"
+        >
+          <div>
+            <b class="text-[20px] font-semibold">Our Services</b>
+            <ul class="mt-10 flex flex-col gap-5">
+              <li class="text-[#D1D1D1] duration-300 hover:translate-x-3">
+                <a class="" href="">Interior design</a>
+              </li>
+              <li class="text-[#D1D1D1] duration-300 hover:translate-x-3">
+                <a class="" href="">Outdoor design</a>
+              </li>
+              <li class="text-[#D1D1D1] duration-300 hover:translate-x-3">
+                <a class="" href="">Lightning design</a>
+              </li>
+              <li class="text-[#D1D1D1] hover:translate-x-3 duration-300">
+                <a class="" href="#">Office design</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <b class="text-[20px] font-semibold">Our Services</b>
+            <ul class="mt-10 flex flex-col gap-5">
+              <li class="text-[#D1D1D1] duration-300 hover:translate-x-3">
+                <a href="">Reviews</a>
+              </li>
+              <li class="text-[#D1D1D1] duration-300 hover:translate-x-3">
+                <a href="">Careers</a>
+              </li>
+              <li class="text-[#D1D1D1] duration-300 hover:translate-x-3">
+                <a href="">Pricing</a>
+              </li>
+              <li class="text-[#D1D1D1] duration-300 hover:translate-x-3">
+                <a href="">Press inquires</a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <b class="text-[20px] font-semibold">Our Services</b>
+            <ul class="mt-10 flex flex-col gap-5">
+              <li class="text-[#D1D1D1] duration-300 hover:translate-x-3">
+                <a href="">info@vivadecor.com</a>
+              </li>
+              <li
+                class="text-[#D1D1D1] cursor-pointer duration-300 hover:translate-x-3"
+              >
+                <p class="mb-[-4px]">Design Avenue Cityville,</p>
+                CA 90210 United States
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Inter", sans-serif;
+    scroll-behavior: smooth;
+  }
+}
+
+@layer components {
+  .container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  /* Mobile  */
+  @media only screen and (max-width: 600px) {
+    .container {
+      padding-right: 15px;
+      padding-left: 15px;
+    }
+  }
+  /* Small */
+  @media only screen and (min-width: 768px) {
+    .container {
+      padding-right: 15px;
+      padding-left: 15px;
+      width: 750px;
+    }
+  }
+
+  /* Medium */
+  @media only screen and (min-width: 992px) {
+    .container {
+      padding-right: 15px;
+      padding-left: 15px;
+      width: 970px;
+    }
+  }
+
+  /* Large */
+  @media only screen and (min-width: 1200px) {
+    .container {
+      padding-right: 0;
+      padding-left: 0;
+      width: 1170px;
+    }
+  }
+  .btn {
+    @apply bg-[#1f1f1f] text-center rounded-[4px] py-3 px-10 font-semibold text-[20px] text-white cursor-pointer duration-300 hover:bg-[rgba(0,0,0,0.76)];
+  }
+}
+@layer components {
+  .scroll-icon.show {
+    right: 25px;
+  }
+  .burger-icon {
+    width: 20px;
+    height: 14px;
+    position: relative;
+    cursor: pointer;
+    span {
+      background-color: black;
+      width: 100%;
+      height: 2px;
+      position: absolute;
+      left: 0;
+      transition: 0.3s;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+      -o-transition: 0.3s;
+      &:first-child {
+        top: 0;
+      }
+      &:nth-child(2) {
+        top: 6px;
+      }
+      &:last-child {
+        top: 12px;
+      }
+    }
+    &.clicked {
+      margin-bottom: 25px;
+    }
+    &.clicked span:nth-child(2) {
+      opacity: 0;
+    }
+    &.clicked span:first-child,
+    &.clicked span:last-child {
+      top: 6px;
+      background-color: red;
+    }
+    &.clicked span:first-child {
+      transform: rotate(45deg);
+      -webkit-transform: rotate(45deg);
+      -moz-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      -o-transform: rotate(45deg);
+    }
+    &.clicked span:last-child {
+      transform: rotate(-45deg);
+      -webkit-transform: rotate(-45deg);
+      -moz-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      -o-transform: rotate(-45deg);
+    }
+  }
+  @media (max-width: 1024px) {
+    .links ul {
+      opacity: 0;
+      z-index: -100;
+      flex-direction: column;
+      position: absolute;
+      right: -120px;
+    }
+    .links ul.clicked {
+      position: relative;
+      opacity: 1;
+      z-index: 100;
+      right: 0px;
+      transition: all 0.5s ease-in-out;
+      -webkit-transition: all 0.5s ease-in-out;
+      -moz-transition: all 0.5s ease-in-out;
+      -ms-transition: all 0.5s ease-in-out;
+      -o-transition: all 0.5s ease-in-out;
+    }
+  }
+  .insta-icon {
+    z-index: 10;
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      opacity: 0;
+      z-index: 15;
+      background: linear-gradient(
+        45deg,
+        #f09433 0%,
+        #e6683c 25%,
+        #dc2743 50%,
+        #cc2366 75%,
+        #bc1888 100%
+      );
+      transition: 0.3s;
+      -webkit-transition: 0.3s;
+      -moz-transition: 0.3s;
+      -ms-transition: 0.3s;
+      -o-transition: 0.3s;
+    }
+    &:hover .overlay {
+      opacity: 1;
+    }
+    img {
+      z-index: 20;
+    }
+  }
+}
+
+@keyframes insta-background;
