@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
+@layer components {
   html {
     font-family: "Inter", sans-serif;
     scroll-behavior: smooth;
@@ -116,7 +116,7 @@
       z-index: -100;
       flex-direction: column;
       position: absolute;
-      right: -120px;
+      right: -50px;
     }
     .links ul.clicked {
       position: relative;
