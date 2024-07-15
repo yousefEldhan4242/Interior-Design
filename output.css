@@ -563,6 +563,12 @@ video {
   width: 100%;
 }
 
+@media (min-width: 380px) {
+  .container {
+    max-width: 380px;
+  }
+}
+
 @media (min-width: 640px) {
   .container {
     max-width: 640px;
@@ -1844,6 +1850,12 @@ html {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y))
     rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
     scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+@media (min-width: 380px) {
+  .xs\:text-\[22px\] {
+    font-size: 22px;
+  }
 }
 
 @media (min-width: 640px) {

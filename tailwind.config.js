@@ -14,7 +14,8 @@ module.exports = {
         "input-responsive": "clamp(14px, 16px, 18px)",
       },
       screens: {
-        big: "1200px", // Default large breakpoint
+        big: "1200px",
+        xs: "380px",
       },
       colors: {
         "main-color": "#1F1F1F",
